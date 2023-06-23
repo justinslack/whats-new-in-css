@@ -5,3 +5,4 @@
 - Custom properties
 - Container queries
 - `:is`, `:where`, `has`, `:not`
+- Logical properties
