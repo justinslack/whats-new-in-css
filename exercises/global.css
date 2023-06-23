@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+section + section {
+  margin-top: 4rem;
+}
+
