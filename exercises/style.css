@@ -1,4 +1,9 @@
 :root {
+  /* -----Font family---- */
+
+  --base-font-family: 'Avenir', Arial, Helvetica, sans-serif;
+  --alt-font-family: Georgia, 'Times New Roman', Times, serif;
+
   /* -----Colours---- */
   --base-text: hsla(213, 11%, 31%, 1);
   /* Accent */
@@ -27,6 +32,10 @@
 
   /* ----Spacing----- */
 
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
 }
 
 
