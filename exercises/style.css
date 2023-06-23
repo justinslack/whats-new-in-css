@@ -13,6 +13,8 @@
   --base-neutral-dark: hsla(0, 1%, 48%, 1);
   --base-neutral-light: hsla(213, 8%, 67%, 1);
 
+  --border-color: var(--base-neutral-dark);
+
   /* -----Font Sizing----- */
   --font-base: 1rem; /* base font size - applied at body / html level */
   --font-h1: 3rem;
@@ -68,6 +70,10 @@ section + section {
   display: grid;
 }
 
+.flex {
+  display: flex;
+}
+
 .block {
   display: block;
 }
@@ -77,7 +83,7 @@ section + section {
 }
 
 input {
-  border: 1px solid grey;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 5px 10px;
 }
